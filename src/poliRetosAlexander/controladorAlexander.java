@@ -2,7 +2,7 @@ package poliRetosAlexander;
 
 public class controladorAlexander {
 
-    public void showSeries () {
+    public void showSeries() {
 
         System.out.println("Ejercicio 1 - Series numericas: ");
         serieNumerica serie = new serieNumerica(5);
@@ -15,7 +15,7 @@ public class controladorAlexander {
         System.out.println("Ejercicio 3 - Figuras: ");
         serieFigura serie3 = new serieFigura(5);
         serie3.seriePiramide();
-        
+
         System.out.println("Ejercicio 4 - Cadena de caracteres: ");
         cadenaCaracteres cadena = new cadenaCaracteres();
         cadena.cadenaInvertida("EfrainAlexander");
@@ -30,6 +30,5 @@ public class controladorAlexander {
         recurs.conteoRegresivo(10);
 
     }
-
 
 }
